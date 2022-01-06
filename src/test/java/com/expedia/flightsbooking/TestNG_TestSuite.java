@@ -29,6 +29,7 @@ public class TestNG_TestSuite {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		PropertyConfigurator.configure("log4j.properties");
 		driver.get(baseUrl);
+		//comment
 	}
 
 	@Test
